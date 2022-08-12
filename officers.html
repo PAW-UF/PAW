@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Indie+Flower&display=swap" rel="stylesheet">
+        <style>
+            body
+            {
+                margin: 0;
+                
+            }
+            .line-break-1
+            {
+                padding: 50px;
+            }
+            .line-break-2
+            {
+                padding: 100px;
+            }
+            .title
+            {
+                margin: auto;
+                text-align: center;
+                color: rgb(78,9,0);
+                font-family: 'Cookie', cursive;
+                
+            }
+            .navbar
+            {
+                overflow: hidden;
+                background-color: #333;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .navbar a
+            {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 35px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                
+            }
+            .navbar a:hover
+            {
+                background-color: #ddd;
+                color: black;
+            }
+            .navbar a.active
+            {
+                background-color: #04aa6d;
+                color: white;
+            }
+            .grid-container
+            {
+                display: grid;
+                /*grid-template-columns: 3fr 2fr 3fr 2fr;*/
+                grid-template-columns: 30vw 19vw 30vw 19vw;
+                /*grid-template-rows: 50vh 50vh 50vh 50vh 50vh;*/
+                grid-template-rows: 28vw 28vw 28vw 28vw 28vw;
+                width: 99vw;
+                grid-row-gap: 120px;
+            }
+            .images-container
+            {
+                display: flex;
+                justify-content: center;
+                object-fit: contain;
+            }
+            .main-text
+            {
+                margin: auto;
+                text-align: left;
+                color: rgb(78,9,0);
+                font-family: 'Cookie', cursive;
+                font-size: 2vw
+            }
+            #main-images
+            {
+                max-width: 30vw;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(178, 246, 255);">
+        <div class="navbar">
+            <a href="main.html" style="padding: 14px 16px;"><img src="Images/PAW_Logo.png" alt="PAW Logo" width="100" height="57"></a>
+            <a href="main.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="getinvolved.html">Get Involved</a>
+            <a href="officers.html">Officers</a>
+            <a href="sponsored.html">Sponsored Animals</a>
+        </div>
+        <div class="title">
+            <h1 style="font-size: 8vw">Officers</h1> 
+            <p style="font-size: 2.5vw; font-family: 'Indie Flower', cursive; font-weight: bold; margin-top: -3vw;">
+                Fall 2022</p>
+        </div>
+        <div class="line-break-1"> </div>
+        <div class="grid-container">
+            <div class="images-container">
+                <img id="main-images" src="Images/Officers/NikaAmbre.jpeg">
+            </div>
+            <div>
+                <h2 class="main-text" style="font-size:3vw;">President</h2>
+                <p class="main-text">Nika Ambre</p>
+            </div>
+            <div class="images-container">
+                <img id="main-images" src="Images/Santa/santa14.jpg">
+            </div>
+            <div>
+                <h2 class="main-text" style="font-size:3vw;">Vice President</h2>
+                <p class="main-text">Seanna Ryan</p>
+            </div>
+            <div class="images-container">
+                <img id="main-images" src="Images/Officers/KendallSchlitt.jpeg">
+            </div>
+            <div>
+                <h2 class="main-text" style="font-size:3vw;">Treasurer</h2>
+                <p class="main-text">Kendall Schlitt</p>
+            </div>
+            <div class="images-container">
+                <img id="main-images" src="Images/Officers/DelaneySlattery.jpeg">
+            </div>
+            <div>
+                <h2 class="main-text" style="font-size:3vw;">Event Coordinator</h2>
+                <p class="main-text">Delaney Slattery</p>
+            </div>
+            <div class="images-container">
+                <img id="main-images" src="Images/Officers/CatalinaCorral.jpeg">
+            </div>
+            <div>
+                <h2 class="main-text" style="font-size:3vw;">Event Coordinator</h2>
+                <p class="main-text">Catalina Corral</p>
+            </div>
+            <div class="images-container">
+                <img id="main-images" src="Images/Officers/MinaRellaHapeman.jpeg">
+            </div>
+            <div>
+                <h2 class="main-text" style="font-size:3vw;">Social Chair</h2>
+                <p class="main-text">Mina Rella-Hapeman</p>
+            </div>
+            <div class="images-container">
+                <img id="main-images" src="Images/Officers/AdamHavens.jpg">
+            </div>
+            <div>
+                <h2 class="main-text" style="font-size:3vw;">Social Media Director</h2>
+                <p class="main-text">Adam Havens</p>
+            </div>
+            <div class="images-container">
+                <img id="main-images" src="Images/Officers/MilenaHurtado.jpeg">
+            </div>
+            <div>
+                <h2 class="main-text" style="font-size:3vw;">Historian</h2>
+                <p class="main-text">Milena Hurtado</p>
+            </div>
+            <div class="images-container">
+                <img id="main-images" src="Images/Officers/MarissaBack.jpeg">
+            </div>
+            <div>
+                <h2 class="main-text" style="font-size:3vw;">Meeting Coordinator</h2>
+                <p class="main-text">Marissa Back</p>
+            </div>
+        </div>
+        <div class="line-break-2"> </div>
+    </body>
+</html>
